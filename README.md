@@ -1,6 +1,20 @@
 # cypress-as-a-example
 
-> Parsing objects injected using the as-a utility
+> Parsing objects injected using the [as-a](https://github.com/bahmutov/as-a) utility
+
+To run: create a file `.as-a.ini` and place a JSON object with the user properties
+
+```ini
+; inject these environment variables
+; using https://github.com/bahmutov/as-a utility
+; Cypress automatically grabs the environment variables
+; that start with CYPRESS_ prefix and parses them
+[cypress-user]
+; get this parsed object with Cypress.env('user')
+CYPRESS_user={"username":"...", "password": "...", "age": number, "valid": boolean}
+```
+
+Cypress spec at [cypress/e2e/spec.cy.js](./cypress/e2e/spec.cy.js)
 
 ## Small print
 
