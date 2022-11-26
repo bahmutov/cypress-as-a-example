@@ -1,0 +1,28 @@
+{
+  "name": "cypress-as-a-example",
+  "version": "1.0.0",
+  "description": "Parsing objects injected using the as-a utility",
+  "private": true,
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/cypress-as-a-example.git"
+  },
+  "keywords": [
+    "cypress-example"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahmutov/cypress-as-a-example/issues"
+  },
+  "homepage": "https://github.com/bahmutov/cypress-as-a-example#readme",
+  "devDependencies": {
+    "as-a": "^2.2.2",
+    "cypress": "^11.2.0",
+    "prettier": "^2.8.0"
+  }
+}
