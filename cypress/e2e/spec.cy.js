@@ -1,5 +1,6 @@
 /// <reference types="cypress" />
 
+// show full objects in the assertions message
 // https://glebbahmutov.com/blog/cypress-tips-and-tricks/
 // or use https://github.com/bahmutov/cy-spok
 chai.config.truncateThreshold = 200

@@ -16,6 +16,7 @@ CYPRESS_user={"username":"...", "password": "...", "age": number, "valid": boole
 
 Cypress spec at [cypress/e2e/spec.cy.js](./cypress/e2e/spec.cy.js)
 
+📝 Read the blog post [How To Inject Environment Variables Into Cypress Tests](https://glebbahmutov.com/blog/inject-env/)
 📺 Watch the video [Inject Entire Objects Into Cypress Tests Using as-a Utility](https://youtu.be/dxGhIvFNm4I).
 
 ## Small print
