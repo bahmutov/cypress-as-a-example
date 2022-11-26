@@ -16,6 +16,8 @@ CYPRESS_user={"username":"...", "password": "...", "age": number, "valid": boole
 
 Cypress spec at [cypress/e2e/spec.cy.js](./cypress/e2e/spec.cy.js)
 
+📺 Watch the video [Inject Entire Objects Into Cypress Tests Using as-a Utility](https://youtu.be/dxGhIvFNm4I).
+
 ## Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2022
